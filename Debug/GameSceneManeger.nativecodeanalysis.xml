@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Develop-D\game\Action2D\include\</FILEPATH>
+      <FILENAME>SDL_rect.h</FILENAME>
+      <LINE>102</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>列挙型 'SDL_bool' は対象範囲外です。'enum' (Enum.3) より 'enum class' を優先します。</DESCRIPTION>
+    <FUNCTION>SDL_PointInRect</FUNCTION>
+    <DECORATED>SDL_PointInRect</DECORATED>
+    <FUNCLINE>99</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Develop-D\game\Action2D\Action2D\GameScene\</FILEPATH>
+      <FILENAME>GameSceneManeger.cpp</FILENAME>
+      <LINE>38</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6284</DEFECTCODE>
+    <DESCRIPTION>オブジェクトが _Param_(2) として渡されました。'SDL_Log' への呼び出しには文字列が必要です。実際の型: 'const class std::basic_string&lt;char,struct std::char_traits&lt;char&gt;,class std::allocator&lt;char&gt; &gt;'。</DESCRIPTION>
+    <FUNCTION>GameSceneManeger::SetCurrentState</FUNCTION>
+    <DECORATED>?SetCurrentState@GameSceneManeger@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>35</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
